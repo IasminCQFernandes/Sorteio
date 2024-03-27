@@ -17,8 +17,9 @@ git clone https://github.com/IasminCQFernandes/Sorteio_Amigo_Oculto
 ```
 
 2. Execute o script Python:
-   
+```bash
 python interface.py
+```
 
 #### O programa abrirá uma janela onde você pode adicionar participantes e realizar o sorteio.
 
