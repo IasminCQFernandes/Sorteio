@@ -5,7 +5,7 @@ import random
 # Variáveis globais
 participantes = ['ana', 'vitoria', 'victor', 'pedro']
 participantes_sorteados = []
-nome_sorteio = 'Grupo'
+# nome_sorteio = 'Grupo'
 
 # Função para adicionar participante
 def add_participante():
@@ -14,7 +14,7 @@ def add_participante():
         participantes.append(nome)
         lista_participantes.insert(tk.END, nome)
         entrada_nome.delete(0, tk.END)
-        messagebox.showinfo("Sucesso", f'O nome "{nome}" foi adicionado à lista de participantes do grupo {nome_sorteio}!')
+        messagebox.showinfo("Sucesso", f'O nome "{nome}" foi adicionado à lista de participantes!')
     else:
         messagebox.showwarning("Atenção", "Por favor, insira um nome.")
 
